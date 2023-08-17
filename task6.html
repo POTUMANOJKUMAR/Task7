@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="task6.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Register</h1>
+            <div class="inputfield">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter the firstname">
+                <div class="error"></div>
+            </div>
+            <div class="inputfield">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname"placeholder="Enter the lastname">
+                <div class="error"></div>
+            </div>
+            <div class="inputfield">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email"placeholder="Enter the email">
+                <div class="error"></div>
+            </div>
+            <div class="inputfield">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter the password">
+                <div class="error"></div>
+            </div>
+            <div class="inputfield">
+                <label for="cpassword">Confirm password</label>
+                <input type="text" id="cpassword" name="cpassword"placeholder="Enter the confirm password">
+                <div class="error"></div>
+            </div>
+            <div class="inputfield">
+                <label for="phoneno">Contact No</label>
+                <input type="tel" id="phoneno" name="phoneno"placeholder="Enter the contact no">
+                <div class="error"></div>
+            </div>
+            <div class="inputfield">
+                <label for="dob">D-O-B (dd/mm/yyyy)</label>
+                <input type="text" id="dob" name="dob" placeholder="Enter the DOB">
+                <div class="error"></div>
+            </div>
+            <div class="inputfield">
+                <label for="">Gender</label>
+                <div class="radio1">
+                    <div><input type="radio" id="radio" name="radio"><label id="nor" for="radio">Male</label></div>
+                    <div><input type="radio" id="radio1" name="radio"><label id="nor" for="radio1">Female</label></div>
+                </div>
+            </div>
+            <div class="inputfield">
+               <div class="t"> <label for="">Specilazation</label>
+                <div class="spec1">
+                    <div class="spec"><input type="checkbox" id="check"><label id="nor" for="">Information Technology</label></div>
+                    <div class="spec"> <input type="checkbox" id="check"><label id="nor"for="">Non IT</label></div>
+                    <div class="spec"> <input type="checkbox" id="check"><label id="nor"for="">Bussiness Administration</label></div>
+                    <div class="spec"> <input type="checkbox" id="check"><label id="nor"for="">Agriculture</label></div>
+                    <div class="error"></div>
+                </div></div>
+            </div>
+            <div class="inputfield">
+                <label for="">Qualification</label>
+                <select>
+                    <option value="">SSC</option>
+                    <option value="">HSC</option>
+                    <option value="">Under Graduate</option>
+                    <option value="">Post Graduate</option>
+                </select>
+            </div>
+            <div class="inputfield">
+                <label for="Adress">Address</label>
+               <textarea name="" id="Address" cols="5" rows="3"></textarea>
+                <div class="error"></div>
+            </div>
+            <div class="inputfield">
+                <label for="pin">Area Pincode</label>
+                <input type="text" id="pin" name="pin"placeholder="Enter the pincode">
+                <div class="error"></div>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <script src="task6.js" defer></script>
+</body>
+
+</html>

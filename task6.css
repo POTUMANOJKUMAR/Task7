@@ -1,0 +1,76 @@
+body {
+   /* background: rgb(194, 34, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(194, 34, 195, 1) 0%,
+    rgba(62, 45, 253, 1) 100%
+  );  */
+  background: rgb(131,58,180);
+background: linear-gradient(225deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  
+  margin: 0;
+  background-attachment: fixed;
+ 
+  
+}
+#form {
+  width: 400px;
+  margin: 20vh auto 0 auto;
+background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  color: blue;
+  border-radius: 1px solid black;
+}
+.inputfield {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 1px;
+}
+.inputfield input {
+  margin-top: 15px;
+  padding: 10px;
+}
+#form button {
+  background-color: blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border: none;
+}
+.inputfield .error {
+  color: rgb(220, 12, 12);
+  font-size: 17px;
+  margin-top: 5px;
+}
+.inputfield,
+.error input {
+  border-color: rgb(255, 0, 0);
+}
+.inputfield,
+.success input {
+  border-color: #07e911;
+}
+.radio1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.spec1 {
+  display: flex;
+  flex-direction: column;
+}
+.inputfield label {
+  font-weight: bold;
+}
+#nor {
+  font-weight: 200;
+}
